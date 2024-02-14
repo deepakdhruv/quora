@@ -1,0 +1,166 @@
+.container-fluid{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    align-items: center;
+   
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+ 
+}
+header {
+    position: sticky;
+    top: 0;
+    
+}
+
+.search{
+    width:100%;
+    border: 0.7px solid rgb(211, 204, 204);
+    border-radius: 2.5px;
+    height:2.5rem;
+    padding: 7%;
+    
+ }
+
+.Quora{
+    text-decoration: none;
+    color: rgb(241, 14, 14);
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15%;
+}
+.Quora:hover{
+    color: rgb(232, 19, 19);
+    text-decoration: none;
+}
+body{
+    padding: 0;margin: 0;
+    background-color: rgb(236, 236, 236) ;
+}
+header{
+    background-color: white;
+    padding: 0.4%;
+    border-bottom: 1px solid  rgb(197, 192, 192);
+    justify-content: space-between;
+
+}
+.btn-outline-light{
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+    border: 0.7px solid rgb(211, 204, 204);
+    background-color: white;
+    font-weight: bold;
+    color: grey;
+}
+svg{
+    width:2rem;
+    
+}
+svg:hover{
+    color:rgb(156, 0, 0);
+    
+}
+.bi-h-circle-fill{
+    max-width: 200%;  
+height: auto;
+
+}
+.main{
+    display: flex;
+   
+}
+
+.card{
+    padding: 15%;
+    align-items: center;
+    margin: 2rem;
+    height: auto;
+    color: grey;
+    background-color: rgb(251, 251, 251);
+    border-radius: 5%;
+    
+}
+.top{
+    margin: 2rem;
+    width: 35rem;
+    height;
+    background-color: white;
+    padding: 1rem;
+
+    height: 5rem;
+    border: 0.2px solid rgb(213, 211, 211);
+    border-radius: 5px;
+
+}
+.card:hover{
+    color:rgb(156, 0, 0);
+    background-color: rgb(240, 242, 240)
+
+  
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.down{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 3%;
+   
+}
+.search1{
+    width: 80%;
+    border-radius: 150px;
+    padding:0 5%;
+    margin-left: 1rem;
+    border: 0.4px solid rgb(186, 183, 183);
+    background-color: rgb(239, 236, 236);
+}
+.boxi{
+    display: flex;
+    align-items: baseline;
+    
+}
+.boxi:hover{
+    color:rgb(156, 0, 0);
+}
+.boxi2{
+    margin: 2rem;
+    width: 35rem;
+    background-color: white;
+    padding: 1rem;
+    border: 0.2px solid rgb(213, 211, 211);
+    border-radius: 5px;
+}
+.vote-btn{
+    border-radius: 20px;
+    padding: 0.5% 2%;
+    border: 0.2px solid grey;
+    margin-top: 2%;
+}
+.card-image{
+    width: 100%;
+}
+.follow-btn{
+    background-color: white;
+    border: 0px;
+    color:blue;
+}
+.card-header{
+    display: flex;
+}
+
+
+
+
+
+
+
+
